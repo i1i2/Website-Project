@@ -1,0 +1,121 @@
+/* styles.css */
+
+/* remove padding and margins */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*change body settings */
+body {
+    background-color: #5A5560;
+    color: #F3E0DC;
+}
+
+/* set borders for table, th, and tds
+   and padding */
+   table, td, th {
+    border: solid 2px blue;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+/* centre all images 
+In body, tables, etc */
+img {
+	width:350px;
+	padding-top: 20px;
+	padding-bottom:0;
+	text-align: center;
+}
+
+/* change header */
+header {
+	position: auto;
+	overflow: hidden;
+    background-color: #f7f7f7;
+	text-align: center;
+    /* try left and right */
+}
+
+main {
+	clear: both;
+}
+
+/* change footer */
+footer {
+    background-color: 5A5560;
+    color: white;
+    text-align: center; 
+    /* try left and right */
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline-block;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#nav_bar {
+	font-family: 'Shrikhand', cursive;
+	font-size: 22px;
+}
+
+#nav_bar ul li a.current
+{
+	color: gray;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #bbb 
+}
+
+a:visited {
+	color: #bbb 
+}
+
+a:hover {
+	color: gray;
+}
+
+#welcome {
+	text-align: center;
+	padding: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+	margin-top: 15px;
+}
+
+#welcome1 {
+	text-align: center;
+	padding: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+}
+
+footer {
+	background-color: #f7f7f7;
+	height: 150px;
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+	color:#bbb;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+ sans-serif;
+}
+
